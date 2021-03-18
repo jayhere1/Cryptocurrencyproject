@@ -22,10 +22,10 @@ def job():
     today_date = datetime.now().date()
     counter = 0
     for x in range(20):
-        if str(df.iloc[x][1]) != "nan" and counter<10:
+        if str(df.iloc[x][1]) != "nan" and counter < 10:
             df_list = df.iloc[x].to_list()
             data_list.append(df_list)
-            counter+=1
+            counter += 1
 
     file = open(f"crypto_data-{today_date}.csv", 'w+', newline='')
 
@@ -35,5 +35,5 @@ def job():
 
     print(f"Job completed at {current_time}")
 
-job()
 
+job()
