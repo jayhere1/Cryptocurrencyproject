@@ -1,6 +1,8 @@
 from datetime import datetime
 import pandas
 import csv
+import schedule
+import time
 
 STOCK_ENDPOINT = "https://uk.finance.yahoo.com/cryptocurrencies"
 
@@ -36,4 +38,9 @@ def job():
     print(f"Job completed at {current_time}")
 
 
-job()
+schedule.every().day.at("10:30").do(job)
+
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
