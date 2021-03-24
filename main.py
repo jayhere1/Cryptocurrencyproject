@@ -3,6 +3,7 @@ import pandas
 import csv
 import schedule
 import time
+import lxml
 
 STOCK_ENDPOINT = "https://uk.finance.yahoo.com/cryptocurrencies"
 
@@ -35,7 +36,7 @@ def job():
         write = csv.writer(file)
         write.writerows(data_list)
 
-    print(f"Job completed at {current_time}")
+    print(f"Job completed at {current_time},{today_date}")
 
 
 schedule.every().day.at("10:30").do(job)
