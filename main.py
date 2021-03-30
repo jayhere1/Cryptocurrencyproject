@@ -39,7 +39,7 @@ def job():
     print(f"Job completed at {current_time},{today_date}")
 
 
-schedule.every().day.at("10:30").do(job)
+schedule.every().day.at("19:30").do(job)
 
 
 while True:
