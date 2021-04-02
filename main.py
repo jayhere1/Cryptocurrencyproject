@@ -3,16 +3,8 @@ import pandas
 import csv
 import schedule
 import time
-import lxml
 
 STOCK_ENDPOINT = "https://uk.finance.yahoo.com/cryptocurrencies"
-
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/88.0.4324.190 Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9,el;q=0.8",
-    "Accept-Encoding": "gzip, deflate",
-}
 
 
 def job():
@@ -40,7 +32,6 @@ def job():
 
 
 schedule.every().day.at("19:30").do(job)
-
 
 while True:
     schedule.run_pending()
