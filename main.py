@@ -30,7 +30,7 @@ def job():
             data_list.append(df_list)
             counter += 1
 
-    file = open(f"crypto_data-{today_date}.csv", 'w+', newline='')
+    file = open(f"Daily Data/crypto_data-{today_date}.csv", 'w+', newline='')
 
     with file:
         write = csv.writer(file)
