@@ -1,5 +1,5 @@
 from datetime import datetime
-import pandas
+from pandas import read_html
 import csv
 import schedule
 import time
@@ -8,7 +8,7 @@ STOCK_ENDPOINT = "https://uk.finance.yahoo.com/cryptocurrencies"
 
 
 def job():
-    data = pandas.read_html(STOCK_ENDPOINT, header=None)
+    data = read_html(STOCK_ENDPOINT, header=None)
     df = data[0]
 
     current_time = datetime.now().time()
