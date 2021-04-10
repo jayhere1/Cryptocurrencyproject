@@ -1,0 +1,1022 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.21.0110.1657                               -->
+<workbook original-version='18.1' source-build='2020.3.5 (20203.21.0110.1657)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='crypto_data-2021-03-12' inline='true' name='federated.1cmvx4h1d9mt5p194pz3103uv5n4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='crypto_data-2021-03-12' name='textscan.0cnty3f0ialr2i1gx8fv714tds5n'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/Inder/PycharmProjects/Cryptocurrencyproject/Daily Data/crypto_data-2021-03-12.csv' dataRefreshTime='' directory='C:/Users/Inder/PycharmProjects/Cryptocurrencyproject/Daily Data' filename='C:/Users/Inder/AppData/Local/Temp/TableauTemp/0mc23l71ksyu271bfvrz80qw6g52/crypto_data-2021-03-12.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0cnty3f0ialr2i1gx8fv714tds5n' name='crypto_data-2021-03-12.csv' table='[crypto_data-2021-03-12#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:L10:no:A1:L10:0' header='no' locale='en_US' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='real' name='F3' ordinal='2' />
+            <column datatype='real' name='F4' ordinal='3' />
+            <column datatype='real' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.0cnty3f0ialr2i1gx8fv714tds5n' name='crypto_data-2021-03-12.csv' table='[crypto_data-2021-03-12#csv$]' type='table'>
+            <columns character-set='UTF-8' gridOrigin='A1:L10:no:A1:L10:0' header='no' locale='en_US' separator=','>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='string' name='F2' ordinal='1' />
+              <column datatype='real' name='F3' ordinal='2' />
+              <column datatype='real' name='F4' ordinal='3' />
+              <column datatype='real' name='F5' ordinal='4' />
+              <column datatype='string' name='F6' ordinal='5' />
+              <column datatype='string' name='F7' ordinal='6' />
+              <column datatype='string' name='F8' ordinal='7' />
+              <column datatype='string' name='F9' ordinal='8' />
+              <column datatype='string' name='F10' ordinal='9' />
+              <column datatype='string' name='F11' ordinal='10' />
+              <column datatype='string' name='F12' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0cnty3f0ialr2i1gx8fv714tds5n' name='crypto_data-2021-03-13.csv' table='[crypto_data-2021-03-13#csv$]' type='table'>
+            <columns character-set='UTF-8' gridOrigin='A1:L10:no:A1:L10:0' header='no' locale='en_US' separator=','>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='string' name='F2' ordinal='1' />
+              <column datatype='real' name='F3' ordinal='2' />
+              <column datatype='real' name='F4' ordinal='3' />
+              <column datatype='real' name='F5' ordinal='4' />
+              <column datatype='string' name='F6' ordinal='5' />
+              <column datatype='string' name='F7' ordinal='6' />
+              <column datatype='string' name='F8' ordinal='7' />
+              <column datatype='string' name='F9' ordinal='8' />
+              <column datatype='string' name='F10' ordinal='9' />
+              <column datatype='string' name='F11' ordinal='10' />
+              <column datatype='string' name='F12' ordinal='11' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[F1 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F1]' />
+          <map key='[F10 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F10]' />
+          <map key='[F10]' value='[crypto_data-2021-03-12.csv].[F10]' />
+          <map key='[F11 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F11]' />
+          <map key='[F11]' value='[crypto_data-2021-03-12.csv].[F11]' />
+          <map key='[F12 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F12]' />
+          <map key='[F12]' value='[crypto_data-2021-03-12.csv].[F12]' />
+          <map key='[F1]' value='[crypto_data-2021-03-12.csv].[F1]' />
+          <map key='[F2 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F2]' />
+          <map key='[F2]' value='[crypto_data-2021-03-12.csv].[F2]' />
+          <map key='[F3 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F3]' />
+          <map key='[F3]' value='[crypto_data-2021-03-12.csv].[F3]' />
+          <map key='[F4 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F4]' />
+          <map key='[F4]' value='[crypto_data-2021-03-12.csv].[F4]' />
+          <map key='[F5 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F5]' />
+          <map key='[F5]' value='[crypto_data-2021-03-12.csv].[F5]' />
+          <map key='[F6 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F6]' />
+          <map key='[F6]' value='[crypto_data-2021-03-12.csv].[F6]' />
+          <map key='[F7 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F7]' />
+          <map key='[F7]' value='[crypto_data-2021-03-12.csv].[F7]' />
+          <map key='[F8 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F8]' />
+          <map key='[F8]' value='[crypto_data-2021-03-12.csv].[F8]' />
+          <map key='[F9 (crypto_data-2021-03-13.csv)]' value='[crypto_data-2021-03-13.csv].[F9]' />
+          <map key='[F9]' value='[crypto_data-2021-03-12.csv].[F9]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L10:no:A1:L10:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L10:no:A1:L10:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[crypto_data-2021-03-12.csv]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F3 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F4 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F5 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F9 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F11 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F12 (crypto_data-2021-03-13.csv)]</local-name>
+            <parent-name>[crypto_data-2021-03-13.csv]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='F1 (crypto data-2021-03-13.csv)' datatype='string' name='[F1 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+      <column caption='F10 (crypto data-2021-03-13.csv)' datatype='string' name='[F10 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+      <column caption='F11 (crypto data-2021-03-13.csv)' datatype='string' name='[F11 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+      <column caption='F12 (crypto data-2021-03-13.csv)' datatype='string' name='[F12 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+      <column caption='F2 (crypto data-2021-03-13.csv)' datatype='string' name='[F2 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+      <column caption='F3 (crypto data-2021-03-13.csv)' datatype='real' name='[F3 (crypto_data-2021-03-13.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[F3]' role='measure' type='quantitative' />
+      <column caption='F4 (crypto data-2021-03-13.csv)' datatype='real' name='[F4 (crypto_data-2021-03-13.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[F4]' role='measure' type='quantitative' />
+      <column caption='F5 (crypto data-2021-03-13.csv)' datatype='real' name='[F5 (crypto_data-2021-03-13.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[F5]' role='measure' type='quantitative' />
+      <column caption='F6 (crypto data-2021-03-13.csv)' datatype='string' name='[F6 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+      <column caption='F7 (crypto data-2021-03-13.csv)' datatype='string' name='[F7 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+      <column caption='F8 (crypto data-2021-03-13.csv)' datatype='string' name='[F8 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+      <column caption='F9 (crypto data-2021-03-13.csv)' datatype='string' name='[F9 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='crypto_data-2021-03-12.csv' datatype='table' name='[__tableau_internal_object_id__].[crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='crypto_data-2021-03-13.csv' datatype='table' name='[__tableau_internal_object_id__].[crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E]' role='measure' type='quantitative' />
+      <column-instance column='[F3 (crypto_data-2021-03-13.csv)]' derivation='Sum' name='[sum:F3 (crypto_data-2021-03-13.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F3]' derivation='Sum' name='[sum:F3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F4 (crypto_data-2021-03-13.csv)]' derivation='Sum' name='[sum:F4 (crypto_data-2021-03-13.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F4]' derivation='Sum' name='[sum:F4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F5 (crypto_data-2021-03-13.csv)]' derivation='Sum' name='[sum:F5 (crypto_data-2021-03-13.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F5]' derivation='Sum' name='[sum:F5:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F3 (crypto_data-2021-03-13.csv):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F4:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F3:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F5 (crypto_data-2021-03-13.csv):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F5:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F4 (crypto_data-2021-03-13.csv):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='crypto_data-2021-03-12.csv' id='crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C'>
+            <properties context=''>
+              <relation connection='textscan.0cnty3f0ialr2i1gx8fv714tds5n' name='crypto_data-2021-03-12.csv' table='[crypto_data-2021-03-12#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:L10:no:A1:L10:0' header='no' locale='en_US' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                  <column datatype='real' name='F3' ordinal='2' />
+                  <column datatype='real' name='F4' ordinal='3' />
+                  <column datatype='real' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='crypto_data-2021-03-13.csv' id='crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E'>
+            <properties context=''>
+              <relation connection='textscan.0cnty3f0ialr2i1gx8fv714tds5n' name='crypto_data-2021-03-13.csv' table='[crypto_data-2021-03-13#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:L10:no:A1:L10:0' header='no' locale='en_US' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                  <column datatype='real' name='F3' ordinal='2' />
+                  <column datatype='real' name='F4' ordinal='3' />
+                  <column datatype='real' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='AND'>
+              <expression op='='>
+                <expression op='[F1]' />
+                <expression op='[F1 (crypto_data-2021-03-13.csv)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[F2]' />
+                <expression op='[F2 (crypto_data-2021-03-13.csv)]' />
+              </expression>
+            </expression>
+            <first-end-point object-id='crypto_data-2021-03-12.csv_0F20C053A28048A3B9248CA2B866C83C' />
+            <second-end-point object-id='crypto_data-2021-03-13.csv_0210CB387C6948EC984CF6BCB3E4A85E' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='crypto_data-2021-03-12' name='federated.1cmvx4h1d9mt5p194pz3103uv5n4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1cmvx4h1d9mt5p194pz3103uv5n4'>
+            <column caption='F1 (crypto data-2021-03-13.csv)' datatype='string' name='[F1 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='F2 (crypto data-2021-03-13.csv)' datatype='string' name='[F2 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+            <column caption='F3 (crypto data-2021-03-13.csv)' datatype='real' name='[F3 (crypto_data-2021-03-13.csv)]' role='measure' type='quantitative' />
+            <column caption='F4 (crypto data-2021-03-13.csv)' datatype='real' name='[F4 (crypto_data-2021-03-13.csv)]' role='measure' type='quantitative' />
+            <column caption='F5 (crypto data-2021-03-13.csv)' datatype='real' name='[F5 (crypto_data-2021-03-13.csv)]' role='measure' type='quantitative' />
+            <column caption='F6 (crypto data-2021-03-13.csv)' datatype='string' name='[F6 (crypto_data-2021-03-13.csv)]' role='dimension' type='nominal' />
+            <column-instance column='[F1 (crypto_data-2021-03-13.csv)]' derivation='None' name='[none:F1 (crypto_data-2021-03-13.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F2 (crypto_data-2021-03-13.csv)]' derivation='None' name='[none:F2 (crypto_data-2021-03-13.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[F6 (crypto_data-2021-03-13.csv)]' derivation='None' name='[none:F6 (crypto_data-2021-03-13.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[F3 (crypto_data-2021-03-13.csv)]' derivation='Sum' name='[sum:F3 (crypto_data-2021-03-13.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F4 (crypto_data-2021-03-13.csv)]' derivation='Sum' name='[sum:F4 (crypto_data-2021-03-13.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F5 (crypto_data-2021-03-13.csv)]' derivation='Sum' name='[sum:F5 (crypto_data-2021-03-13.csv):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F5 (crypto_data-2021-03-13.csv):qk]' />
+              <shape column='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F1 (crypto_data-2021-03-13.csv):nk]' />
+              <color column='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F2 (crypto_data-2021-03-13.csv):nk]' />
+              <lod column='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F6 (crypto_data-2021-03-13.csv):nk]' />
+              <lod column='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F1:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F3 (crypto_data-2021-03-13.csv):qk]</rows>
+        <cols>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F4 (crypto_data-2021-03-13.csv):qk]</cols>
+      </table>
+      <simple-id uuid='{E1E2FAF0-1845-4836-BE2C-6CE426D7B7DA}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='crypto_data-2021-03-12' name='federated.1cmvx4h1d9mt5p194pz3103uv5n4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1cmvx4h1d9mt5p194pz3103uv5n4'>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[F2]' role='dimension' type='nominal' />
+            <column datatype='real' name='[F3]' role='measure' type='quantitative' />
+            <column datatype='real' name='[F4]' role='measure' type='quantitative' />
+            <column datatype='real' name='[F5]' role='measure' type='quantitative' />
+            <column datatype='string' name='[F6]' role='dimension' type='nominal' />
+            <column datatype='string' name='[F7]' role='dimension' type='nominal' />
+            <column datatype='string' name='[F8]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F2]' derivation='None' name='[none:F2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F6]' derivation='None' name='[none:F6:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F7]' derivation='None' name='[none:F7:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F8]' derivation='None' name='[none:F8:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F3]' derivation='Sum' name='[sum:F3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F4]' derivation='Sum' name='[sum:F4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F5]' derivation='Sum' name='[sum:F5:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F3:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F4:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F5:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[Multiple Values]</rows>
+        <cols>([federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F1:nk] / ([federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F2:nk] / ([federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F6:nk] / ([federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F7:nk] / ([federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F8:nk] / [federated.1cmvx4h1d9mt5p194pz3103uv5n4].[:Measure Names])))))</cols>
+      </table>
+      <simple-id uuid='{9912D974-E544-4FAF-8005-83188480A257}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F2 (crypto_data-2021-03-13.csv):nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F1 (crypto_data-2021-03-13.csv):nk]' type='shape' />
+            <card pane-specification-id='0' param='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[sum:F5 (crypto_data-2021-03-13.csv):qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[:Measure Names]</field>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F1 (crypto_data-2021-03-13.csv):nk]</field>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F2 (crypto_data-2021-03-13.csv):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E7FB3492-E775-4AFC-BBC9-86581370C53B}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[:Measure Names]</field>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F10:nk]</field>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F11:nk]</field>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F1:nk]</field>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F2:nk]</field>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F8:nk]</field>
+            <field>[federated.1cmvx4h1d9mt5p194pz3103uv5n4].[none:F9:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CD96894D-AD64-418B-96E0-3C9DA2A63FC1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
